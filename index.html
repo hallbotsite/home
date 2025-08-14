@@ -62,7 +62,34 @@
     </nav>
 </section>
 
-<section data-bs-version="5.1" class="header5 cid-uTHl4laIox mbr-fullscreen" data-bg-video="https://www.youtube.com/embed/GJi6STwXqrM?playlist=GJi6STwXqrM&loop=1&autoplay=1&mute=1&controls=0&showinfo=0&rel=0" id="header">
+<section data-bs-version="5.1" class="header5 cid-uTHl4laIox mbr-fullscreen" id="header" style="position: relative; overflow: hidden;">
+  
+  <!-- Фоновое видео -->
+  <video autoplay muted loop playsinline
+         style="position: absolute; top: 0; left: 0; min-width: 100%; min-height: 100%; object-fit: cover; z-index: -1;">
+    <source src="https://raw.githubusercontent.com/hallbotsite/home/a70ad1e73cebba8722750268e7316b81918cc6ba/assets/images/aquabot.mp4" type="video/mp4">
+    Ваш браузер не поддерживает видео.
+  </video>
+
+  <!-- Контент поверх видео -->
+  <div class="container-fluid d-flex align-items-center justify-content-center h-100" style="position: relative; z-index: 1;">
+    <div class="row w-100 justify-content-center">
+      <div class="col-md-10 text-center">
+        <h1 class="mbr-section-title mbr-fonts-style mb-3 display-2">
+          <strong>Роботы, которые чистят там, где водолазы тратят недели</strong>
+        </h1>
+        <p class="mbr-text mbr-fonts-style display-7">
+          Подводная очистка судов и конструкций: быстрее, чище, безопаснее.
+        </p>
+        <div class="mbr-section-btn mt-4">
+          <a class="btn btn-primary display-4" href="#form">Рассчитать объект</a>
+          <a class="btn btn-secondary display-4" href="#inspection">Запросить инспекцию</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
     
