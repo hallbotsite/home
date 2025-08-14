@@ -541,7 +541,7 @@
               }
             },
             ".mbr-section-title": {
-              "text-align": "left"
+              "text-align": "center"
             },
             ".mbr-text, .mbr-section-btn": {
               "text-align": "center"
